@@ -1,0 +1,120 @@
+body {
+    font-family: 'Averia Gruesa Libre';
+}
+
+
+.domain {
+    font-size: 21px;
+    filter: drop-shadow(4px 4px 4px lightgrey);
+}
+
+.socail-icon {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socail-icon i {
+    color: black;
+    font-size: 18px;
+}
+
+
+.icon-circle {
+    background: white;
+    /* border:0.5px solid lightcoral; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+    filter: drop-shadow(2px 2px 2px lightgrey);
+    transition-property: background, color, transform;
+    transition-duration: 1s;
+}
+
+.icon-circle:hover {
+    background: black;
+    color: white;
+    transform: scaleY(0.5);
+
+}
+
+.icon-circle i:hover {
+    color: white;
+}
+
+.chat-btn a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.chat-btn {
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+#download-btn a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+#download-btn {
+    border: 1px solid orangered;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+#myabout
+{
+    font-size: 17px;
+    filter: drop-shadow(4px 4px 4px lightblue);
+}
+
+.card-body
+{
+    border:0.5px solid grey;
+    filter: drop-shadow(4px 4px 4px lightgrey);
+}
+
+#fixedbtn
+{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px;
+    
+    
+}
+
+#fixedbtn 
+{
+  color: white;
+}
+
+.empty
+{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-icon a
+{
+    color: black;
+
+}
+
+
